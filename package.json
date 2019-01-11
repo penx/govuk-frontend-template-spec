@@ -1,0 +1,19 @@
+{
+  "name": "govuk-frontend-template-spec",
+  "version": "0.0.1",
+  "description": "Set of tests extracted from govuk-frontend to ensure ports meet the same template tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alasdair McLeay",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/govuk-frontend-template-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/penx/govuk-frontend-template-spec/issues"
+  },
+  "homepage": "https://github.com/penx/govuk-frontend-template-spec#readme"
+}
