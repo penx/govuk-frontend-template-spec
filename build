@@ -15,6 +15,7 @@ for D in *; do
     cp $D/template.test.js ../../../components/$D/template.test.js
     cp $D/$D.yaml ../../../components/$D/$D.yaml
     cp -a $D/__snapshots__ ../../../components/$D 2>/dev/null
+    js-yaml ../../../components/$D/$D.yaml > ../../../components/$D/$D.json
   fi
 done
 

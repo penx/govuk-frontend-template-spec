@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/penx/govuk-frontend-template-spec/issues"
   },
-  "homepage": "https://github.com/penx/govuk-frontend-template-spec#readme"
+  "homepage": "https://github.com/penx/govuk-frontend-template-spec#readme",
+  "devDependencies": {
+    "js-yaml": "^3.12.1"
+  }
 }
