@@ -13,7 +13,7 @@ for D in *; do
     echo "${D}"   # your processing here
     mkdir ../../../components/$D/
     cp $D/template.test.js ../../../components/$D/template.test.js
-    cp $D/template.test.js ../../../components/$D/$D.yaml
+    cp $D/$D.yaml ../../../components/$D/$D.yaml
   fi
 done
 
