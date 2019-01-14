@@ -4,6 +4,7 @@
   "description": "Set of tests extracted from govuk-frontend to ensure ports meet the same template tests",
   "main": "index.js",
   "scripts": {
+    "build": "./build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alasdair McLeay",
