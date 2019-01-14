@@ -1,6 +1,6 @@
 {
   "name": "govuk-frontend-template-spec",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Set of tests extracted from govuk-frontend to ensure ports meet the same template tests",
   "main": "index.js",
   "scripts": {
