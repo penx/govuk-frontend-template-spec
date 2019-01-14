@@ -10,10 +10,11 @@ cd src/components/
 
 for D in *; do
   if [ -d "${D}" ]; then
-    echo "${D}"   # your processing here
+    echo "${D}"
     mkdir ../../../components/$D/
     cp $D/template.test.js ../../../components/$D/template.test.js
     cp $D/$D.yaml ../../../components/$D/$D.yaml
+    cp -a $D/__snapshots__ ../../../components/$D 2>/dev/null
   fi
 done
 
