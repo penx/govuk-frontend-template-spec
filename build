@@ -20,3 +20,4 @@ done
 cd ../../..
 rm -rf govuk-frontend
 sed -i '' 's/\.\.\/\.\.\/\.\.\/lib\/jest-helpers/\.\.\/\.\.\/lib\/jest-helpers/g' components/**/*.js
+sed -i '' 's/\.\.\/\.\.\/\.\.\/lib\/axe-helper/\.\.\/\.\.\/lib\/axe-helper/g' components/**/*.js
