@@ -16,4 +16,7 @@ If using the GitHub repository, the code is extracted from [govuk-frontend](http
 
 [govuk-frontend](https://github.com/alphagov/govuk-frontend) provides templates using [nunjucks](https://github.com/mozilla/nunjucks). I'm creating [a set of React components that aim to have feature parity with govuk-frontend](https://github.com/penx/govuk-frontend-react) and wanted to extract the govuk-frontend unit tests to validate this. This may also be useful for ports of the templates to other languages.
 
-Also see https://github.com/alphagov/govuk-frontend/issues/1095
+Also see:
+- https://github.com/alphagov/govuk-frontend/issues/1095
+- https://github.com/govuk-react/govuk-react/issues/450
+- https://github.com/govuk-react/govuk-react/issues/76
