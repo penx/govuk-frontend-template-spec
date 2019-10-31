@@ -1,6 +1,6 @@
 {
   "name": "govuk-frontend-template-spec",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Set of tests extracted from govuk-frontend to ensure ports meet the same template tests",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/penx/govuk-frontend-template-spec#readme",
   "devDependencies": {
-    "js-yaml": "^3.12.1"
+    "js-yaml": "^3.13.1"
   }
 }

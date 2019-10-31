@@ -4,22 +4,22 @@ mkdir components
 git clone git@github.com:alphagov/govuk-frontend.git
 cd govuk-frontend
 # TODO: config option for tracking specific version
-git checkout tags/v2.5.0
+git checkout tags/v3.3.0
 
-cd src/components/
+cd src/govuk/components/
 
 for D in *; do
   if [ -d "${D}" ]; then
     echo "${D}"
-    mkdir ../../../components/$D/
-    cp $D/template.test.js ../../../components/$D/template.test.js
-    cp $D/$D.yaml ../../../components/$D/$D.yaml
-    cp -a $D/__snapshots__ ../../../components/$D 2>/dev/null
-    js-yaml ../../../components/$D/$D.yaml > ../../../components/$D/$D.json
+    mkdir ../../../../components/$D/
+    cp $D/template.test.js ../../../../components/$D/template.test.js
+    cp $D/$D.yaml ../../../../components/$D/$D.yaml
+    cp -a $D/__snapshots__ ../../../../components/$D 2>/dev/null
+    js-yaml ../../../../components/$D/$D.yaml > ../../../../components/$D/$D.json
   fi
 done
 
-cd ../../..
+cd ../../../..
 rm -rf govuk-frontend
-sed -i '' 's/\.\.\/\.\.\/\.\.\/lib\/jest-helpers/\.\.\/\.\.\/lib\/jest-helpers/g' components/**/*.js
-sed -i '' 's/\.\.\/\.\.\/\.\.\/lib\/axe-helper/\.\.\/\.\.\/lib\/axe-helper/g' components/**/*.js
+sed -i '' 's/\.\.\/\.\.\/\.\.\/lib\/jest-helpers/\.\.\/lib\/jest-helpers/g' components/**/*.js
+sed -i '' 's/\.\.\/\.\.\/\.\.\/lib\/axe-helper/\.\.\/lib\/axe-helper/g' components/**/*.js
